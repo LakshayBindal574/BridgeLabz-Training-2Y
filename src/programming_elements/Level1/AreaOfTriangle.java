@@ -1,6 +1,5 @@
 package programming_elements.Level1;
 import java.util.Scanner;
-
 public class AreaOfTriangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -10,7 +9,7 @@ public class AreaOfTriangle {
         double height = sc.nextDouble();
 
         double areaCm = 0.5 * base * height;
-        double areaInches = areaCm / 6.4516; // 1 inch^2 = 6.4516 cm^2
+        double areaInches = areaCm / 6.451;
 
         System.out.println("The area of triangle is " + areaCm + " square cm and " + areaInches + " square inches");
     }
